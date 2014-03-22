@@ -31,6 +31,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
+import com.mindprotectionkit.whitenoise.R;
 
 public class EqualizerViewLite extends View {
     public static final int BAND_COUNT = SpectrumData.BAND_COUNT;

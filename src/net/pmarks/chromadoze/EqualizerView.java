@@ -25,6 +25,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+import com.mindprotectionkit.whitenoise.R;
 
 public class EqualizerView extends android.view.View implements UIState.LockListener {
     public static final int BAND_COUNT = SpectrumData.BAND_COUNT;

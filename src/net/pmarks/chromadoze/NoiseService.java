@@ -18,7 +18,6 @@
 package net.pmarks.chromadoze;
 
 import java.util.ArrayList;
-
 import junit.framework.Assert;
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -32,6 +31,7 @@ import android.os.Message;
 import android.os.PowerManager;
 import android.support.v4.app.NotificationCompat;
 import android.widget.RemoteViews;
+import com.mindprotectionkit.whitenoise.R;
 
 public class NoiseService extends Service {
     public static final int PERCENT_MSG = 1;

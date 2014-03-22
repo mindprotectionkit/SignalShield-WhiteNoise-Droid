@@ -28,6 +28,7 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
+import com.mindprotectionkit.whitenoise.R;
 
 public class OptionsFragment extends Fragment implements OnSeekBarChangeListener, OnCheckedChangeListener {
     private UIState mUiState;

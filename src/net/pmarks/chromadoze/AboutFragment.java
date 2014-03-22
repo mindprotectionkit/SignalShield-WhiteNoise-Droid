@@ -26,6 +26,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import com.mindprotectionkit.whitenoise.R;
 
 public class AboutFragment extends Fragment {
     @Override

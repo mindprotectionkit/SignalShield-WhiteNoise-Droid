@@ -18,6 +18,7 @@
 package net.pmarks.chromadoze;
 
 import android.content.Context;
+import com.mindprotectionkit.whitenoise.R;
 
 public class FragmentIndex {
     static final int ID_CHROMA_DOZE = 0;

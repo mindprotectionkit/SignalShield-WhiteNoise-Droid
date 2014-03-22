@@ -24,6 +24,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import com.mindprotectionkit.whitenoise.R;
 
 public class MainFragment extends Fragment implements NoiseService.PercentListener {
     private EqualizerView mEqualizer;

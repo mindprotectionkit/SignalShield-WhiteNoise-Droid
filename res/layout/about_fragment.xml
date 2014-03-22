@@ -5,12 +5,19 @@
     android:orientation="vertical"
     android:padding="10sp" >
 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/shield" />
+
     <TextView
         style="@android:style/TextAppearance.Medium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Chroma Doze" />
+        android:text="White Noise Generator" />
     
     <TextView
         android:layout_width="wrap_content"
@@ -30,21 +37,32 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingBottom="10sp"
-        android:text="© 2014 Paul Marks" />
+        android:text="Mind Protection Kit" />
 
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:autoLink="web"
-        android:text="https://chromadoze.googlecode.com/" />
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="10sp"
-        android:text="JTransforms © 2009 Piotr Wendykier\nDragSortListView © 2013 Carl Bauer" />
-
+        android:text="Mind Protection Kit is a suite of apps and services personal privacy and freedom." />
     
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="http://www.mindprotectionkit.com" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,4 +70,10 @@
         android:paddingTop="10sp"
         android:text="This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version." />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="https://github.com/mindprotectionkit/SignalShield-WhiteNoiseGenerator" />
+        
 </LinearLayout>

@@ -33,6 +33,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
+import com.mindprotectionkit.whitenoise.R;
 
 public class ChromaDoze extends ActionBarActivity implements
         NoiseService.PercentListener, UIState.LockListener, OnNavigationListener {
